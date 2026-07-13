@@ -1,0 +1,29 @@
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Generated transcription output
+output/
+outputs/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
