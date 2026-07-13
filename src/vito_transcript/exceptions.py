@@ -27,3 +27,7 @@ class RTZRTranscriptionFailedError(RTZRError):
 
 class RTZRTimeoutError(RTZRError):
     """Raised when a transcription does not finish before its deadline."""
+
+
+class RTZROutputError(RTZRError):
+    """Raised when rendered transcript output cannot be written."""
